@@ -45,8 +45,7 @@ fi
 echo "[3/4] 准备 .env"
 if [ ! -f .env ]; then
   cp .env.example .env
-  echo "      已生成 .env。要生成三维模型，请在 .env 里填入 TENCENT_API_KEY。"
-  echo "      只做透光浮雕（lithophane）不需要任何 key。"
+  echo "      已生成 .env，请填入 TENCENT_API_KEY（三维生成接口必需）。"
 fi
 
 echo "[4/4] 离线自检（透光浮雕）"

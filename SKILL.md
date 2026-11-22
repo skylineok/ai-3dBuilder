@@ -15,7 +15,7 @@ git clone <repo> && cd ai-3d-builder
 WITH_REMBG=1 ./scripts/install.sh   # optional: + background removal (~200 MB)
 ```
 
-`install.sh` runs a lithophane build at the end, so a green run means the geometry stack works. Solid mode additionally needs a key in `.env`:
+`install.sh` runs a lithophane build at the end, so a green run means the geometry stack works. Solid mode requires a key in `.env`:
 
 ```
 TENCENT_API_KEY=sk-...
