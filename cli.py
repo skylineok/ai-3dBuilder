@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent
 try:
     __version__ = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
 except OSError:
-    __version__ = "0.01"
+    __version__ = "0.1.0"
 
 
 def build_parser() -> argparse.ArgumentParser:
