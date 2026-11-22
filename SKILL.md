@@ -1,6 +1,11 @@
 ---
 name: ai-3d-builder
+version: "0.01"
+display_name: 图片转 3D 打印模型
+display_name_en: AI 3D Builder
 description: Turn a photo into a printable 3D file (solid figurine or lithophane relief) and open it in Bambu Studio. Use for 3D打印, 照片转3D, 浮雕, 拓竹, or any 3D print from an image. Do not use for CAD modeling.
+description_zh: 把一张图片变成可打印的 3D 文件，支持实心手办与透光浮雕两种模式，并能直接交给 Bambu Studio 切片。适用于 3D打印、照片转3D、浮雕、拓竹等场景，不用于 CAD 建模。
+description_en: Turn one photo into a printable 3D file, either a solid figurine or a lithophane relief, then hand it to Bambu Studio. Use for 3D printing, photo-to-3D, lithophane, Bambu Studio workflows; not for CAD modeling.
 ---
 
 # ai-3d-builder
