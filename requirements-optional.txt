@@ -1,0 +1,6 @@
+# 可选：抠图（云端重建前把背景去掉，成功率更高）
+# 安装：WITH_REMBG=1 ./scripts/install.sh
+# 已装 numpy<2 时不能直接装 rembg，它会把 numpy 拉到 2.x
+rembg==2.0.57
+onnxruntime>=1.17
+opencv-python-headless>=4.9
