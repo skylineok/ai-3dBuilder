@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="140" alt="ai-3d-builder 图标">
+  <img src="assets/icon-512.png" width="140" alt="ai-3d-builder 图标">
 </p>
 
 # ai-3d-builder
@@ -152,7 +152,7 @@ Key 只从环境变量或 `.env` 读取，代码里没有任何硬编码，`.env
 ```
 ai-3d-builder/
 ├── SKILL.md              # 给 AI Agent 用的技能说明（也可当速查手册）
-├── assets/icon.png       # 图标，1024×1024
+├── assets/               # 图标：icon.png 1024×1024，icon-512.png 512×512
 ├── cli.py                # 命令行入口，--mode solid / lithophane / --mesh
 ├── pipeline/
 │   ├── reconstruct.py    # 图片 -> 网格（腾讯云 / Replicate / fal）
